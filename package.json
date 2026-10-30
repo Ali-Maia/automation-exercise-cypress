@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --reporter mochawesome",
-    "test-ui": "npx cypress open --reporter mochawesome",
-    "test:modules": "npx cypress run --spec \"cypress/e2e/automation-exercise/automation-execise-modules.cy.js\" --reporter mochawesome"
+    "test": "npx cypress run --spec \"cypress/e2e/automation-exercise/automation-execise-modules.cy.js\" --reporter mochawesome",
+      "test:all": "npx cypress run --reporter mochawesome",
+      "test-ui": "npx cypress open --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
