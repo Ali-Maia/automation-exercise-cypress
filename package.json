@@ -1,0 +1,21 @@
+{
+  "name": "pgats-automacao-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --reporter mochawesome",
+    "test-ui": "npx cypress open --reporter mochawesome",
+    "test:modules": "npx cypress run --spec \"cypress/e2e/automation-exercise/automation-execise-modules.cy.js\" --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "cypress": "^13.7.3",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^8.1.1"
+  }
+}
