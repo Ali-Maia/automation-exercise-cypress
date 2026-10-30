@@ -1,3 +1,4 @@
+mochawesome-report/
 cypress/results/*
 cypress/reports/*
 cypress/screenshots/*
